@@ -1,0 +1,75 @@
+/* Your card CSS file */
+.card-category {
+  margin: 20px auto;
+  width: 800px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  color: white;
+  letter-spacing: 3px;
+  border-radius: 4px;
+  box-shadow: 2px 4px 10px 0px rgba(0,0,0,0.64);
+}
+
+
+.card-product {
+  margin: 20px auto;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 2px 4px 10px 0px rgba(0,0,0,0.64);
+
+}
+
+.card-product-details {
+  padding-left: 20px;
+}
+
+.card-product h1 {
+  font-family: 'Lato', sans-serif;
+}
+
+.card-product p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.card-trip {
+  width: 50%;
+  margin: 0 auto;
+  box-shadow: 2px 4px 10px 0px rgba(0,0,0,0.64);
+}
+
+.card-trip-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  position: relative;
+  align-items: flex-end;
+
+}
+
+.card-trip-details img {
+  right: 24;
+  top: -48px;
+}
+
+.card-trip p {
+  font-family: 'Raleway', sans-serif;
+  line-height: 2em;
+  /*display: inline;*/
+  /*position: relative;
+  bottom: 60px;
+  left: 34px;*/
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 20px;
+
+}
